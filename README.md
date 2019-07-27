@@ -371,11 +371,15 @@ $ docker build -t <dockerhub_username>/payment-service-server:1.0.0 .
 $ docker run -d --rm --name rest-server -p 8080:8080 <dockerhub_username>/payment-service-server:1.0.0
 ```
 
+## Versioning
+
+For the versions available, see the [tags on this repository](https://github.com/angelospillos/gateway/tags). 
+
 ## Authors
 
-* **Angelos Pillos** 
+* **Angelos Pillos** - (https://www.angelospillos.com)
 
-See also the list of acknowledgments
+See also the list of [contributors](https://github.com/angelospillos/gateway/graphs/contributors) who participated in this project.
 
 ## License
 
