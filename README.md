@@ -9,6 +9,7 @@ It implements best practices in developing RESTful APIs and Domain-Driven Design
 Features include:
 - API versioning allows you to alter behavior between different clients. ... Versioning is determined by the incoming client request, and may either be based on the request URL, or based on the request headers. There are a number of valid approaches to approaching versioning.
 - A basic example of a OAuth2 server, using [oauth2-server](https://github.com/oauthjs/oauth2-server) (version 3.0.1) with the MVP model configuration.
+- User management describes the ability for administrators to manage user access to various IT resources like systems, devices, applications, storage systems, networks, SaaS services, and more. User management is a core part to any directory service and is a basic security essential for any organization.
 - Use of the Hexagonal Architecture to arrange the application into logical layers, with well-defined responsibilities.
 - RESTful APIs are implemented using the Express framework.
 - Persistence is implemented using an in-memory repository layer. This can be substituted with any persistence technology of your choice.
