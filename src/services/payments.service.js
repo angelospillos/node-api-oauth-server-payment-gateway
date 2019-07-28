@@ -33,7 +33,7 @@ async function approve(req, res, next) {
   try {
     const payment = await paymentsRepository.get(userId, paymentId);
     if (payment.status === "cancelled") {
-      return Promise.reject(new CannotApproveError());
+      throw new CannotApproveError();
     }
     try {
       const payment_1 = await paymentsRepository.updateStatus("approved", payment);
@@ -54,7 +54,7 @@ async function cancel(req, res, next) {
   try {
     const payment = await paymentsRepository.get(userId, paymentId);
     if (payment.status === "approved") {
-      return Promise.reject(new CannotCancelError());
+      throw new CannotCancelError();
     }
     try {
       const payment_1 = await paymentsRepository.updateStatus("cancelled", payment);
