@@ -328,10 +328,7 @@ In caseof an error (both client 4xx and server 5xx), response will contain an ob
 ```
 
 The source folder contains sub-folders that arrange the application into logical
-layers as suggested by the
-[Hexagonal Architecture](http://alistair.cockburn.us/Hexagonal+architecture)
-(a.k.a. the
-[Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/)):
+layers as suggested by the onion architecture.
 
 -   `dtos` The dtos folder contains the dtos. A data transfer object(DTO) is an object that carries data between processes. The motivation for its use is that communication between processes is usually done resorting to remote interfaces (e.g., web services), where each call is an expensive operation.
 
