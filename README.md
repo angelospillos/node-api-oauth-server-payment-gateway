@@ -27,14 +27,15 @@ What things you need to install the software and how to install them
 - [Node.js](https://nodejs.org/en/download/)
 
 
-## Installing
-
-Install **nodejs** and **npm** and then, simply run `npm install` and `npm start`. The server should now be running at `http://localhost:8080`.
+## Quick Start
 
 ```
+git clone git@github.com:angelospillos/node-api-oauth-server-payment-gateway.git
+cd node-api-oauth-server-payment-gateway
 npm install
 npm start
 ```
+The server should now be running at `http://localhost:8080`.
 
 ## Authentication
 API methods require
