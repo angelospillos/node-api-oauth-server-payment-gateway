@@ -253,8 +253,8 @@ Each response contains aproper HTTP codeset. Here are the details:
 - 200 — Success
 - 201 — Created
 - 400 — Client error (e.g. validation)
-- 401 —Unathorized
-- 500—Servererror
+- 401 — Unathorized
+- 500— Server error
 
 ## Errors
 
@@ -287,15 +287,6 @@ In caseof an error (both client 4xx and server 5xx), response will contain an ob
 {
    "code":"ERR_VALIDATION",
    "message":"Validation failed",
-   "details":[
-      {
-         "message":"'amount' field is required",
-         "path":[
-            "amount"
-         ],
-         "value":"null"
-      }
-   ]
 }
 ```
 
